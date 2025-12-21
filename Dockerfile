@@ -19,8 +19,8 @@ ENV HOST=0.0.0.0
 ENV Q_SERVER_USE_SINGLE_PORT=true
 
 # Dashboard Authentication Defaults
-ENV Q_DASHBOARD_USER=admin
-ENV Q_DASHBOARD_PASS=password
+#ENV Q_DASHBOARD_USER=admin
+#ENV Q_DASHBOARD_PASS=password
 
 EXPOSE 8080
 CMD ["run-app", "server"]
